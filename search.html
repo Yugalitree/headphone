@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>U-headphone Fun Mobile Listening</title>
+        <meta name="description" content="Pushy is an off-canvas navigation menu for your website.">     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link href="uicon.ico" rel="SHORTCUT ICON">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/component.css">
+        <link rel="stylesheet" href="css/pages.css">
+<!--         <link rel="stylesheet" href="css/form.css"> -->
+        <!-- Pushy CSS -->
+        <link rel="stylesheet" href="css/pushy.css">
+
+        <!-- jQuery -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+    </head>
+    <body>
+        <!-- Mobile Menu -->
+        <nav class="pushy pushy-left">
+            <ul>
+                <li><a href="news.html"><span>NEWS</span>業界新聞</a></li>
+                <li><a href="review.html"><span>REVIEW</span>試聽報告</a></li>
+                <li><a href="feature.html"><span>FEATURE</span>專題報導</a></li>
+                <li><a href="collection.html"><span>COLLECTION</span>耳機特輯</a></li>
+                <li><a href="distributor.html"><span>DISTRIBUTOR</span>廠商專區</a></li>
+                <li><a href="music.html"><span>MUSIC</span>音樂推薦</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- Site Overlay -->
+        <div class="site-overlay"></div>
+
+        <!-- Your Content -->
+        <div id="container">
+
+            <header>
+               <nav>
+                  <ul>
+                     <li>
+                        <a href="http://www.u-car.com.tw" target="blank">
+                           u-car
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-fashion.com.tw" target="blank">
+                           u-fashion
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-audio.com.tw/" target="blank">
+                           u-audio
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-3c.com.tw/" target="blank">
+                           u-3c
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-outdoor.com.tw/" target="blank">
+                           u-outdoor
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-headphone.com.tw/" target="blank">
+                           u-headphone
+                        </a>
+                     </li>           
+                  </ul>
+               </nav>
+               <!--Mobile Menu Button -->
+               <div class="menu-btn"></div>
+               <a href="index.html" class="logo_s"></a>
+               <!--Desktop Menu -->
+               <div class="main_menu">
+
+                  <a href="index.html" class="logo"></a>                  
+                  <ul>
+                    <li><a href="news.html">業界新聞</a></li>
+                    <li><a href="review.html">試聽報告</a></li>
+                    <li><a href="feature.html">專題報導</a></li>
+                    <li><a href="collection.html">耳機特輯</a></li>
+                    <li><a href="distributor.html">廠商專區</a></li>
+                    <li><a href="music.html">音樂推薦</a></li>
+                  </ul>
+
+               </div>
+               <!--Mobile Search -->
+               <div id="sb-search" class="sb-search">
+                  <form>
+                      <input class="sb-search-input" placeholder="search..." type="text" value="" name="search" id="search">
+                      <input class="sb-search-submit" type="submit" value="">
+                      <span class="sb-icon-search"></span>
+                  </form>
+               </div>
+               
+
+            </header>
+
+            <div class="content">
+                <div class="left_block">
+                      <!-- breadcrumb -->
+                      <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">SEARCH</a></li>
+                      </ol>
+                      <div class="clear"></div>
+                      <!-- article title & category -->
+                      <div class="tit_box search_tit">
+                          <h2><span>SEARCH</span>進階搜尋</h2>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="col_stline"></div>
+                      <!-- search block -->
+                      <div class="search_container">
+                           <input type="text" placeholder="請輸入 耳機種類, 地區, 廠牌">
+                           <select class="select_cat" name="category">
+                          　<option value="all">不分類</option>
+                          　<option value="news">新聞</option>
+                            <option value="review">試聽</option>
+                          　<option value="feature">專題</option>
+                          　<option value="collection">特輯</option>
+                            <option value="music">音樂</option>
+                          </select>
+                          <h3 class="tit_range">
+                              文章日期範圍
+                          </h3>
+                          <div class="select_group">
+                              <select name="year">
+                              　<option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                              </select>
+                              <span>年</span>
+                              <select name="month">
+                              　<option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                              </select>
+                              <span>月</span>
+                              <select name="date">
+                              　<option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                              　<option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>                          
+                              </select>                                                
+                              <span>日</span>
+                              <span class="to">至</span>
+                              <select name="year">
+                              　<option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                              </select>
+                              <span>年</span>
+                              <select name="month">
+                              　<option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                              </select>
+                              <span>月</span>
+                              <select name="date">
+                              　<option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                              　<option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>                          
+                              </select>                                                
+                              <span>日</span>
+                          </div>
+                          <a class="search_btn" href="#">立即搜尋</a>
+                      </div>
+                      <!-- search block END-->
+                      <!-- search result -->
+                      <section class="search_result">
+                          <span class="tit">搜尋結果</span>
+                          <span>共搜尋到<b>733</b>項結果，</span>
+                          <span>以下為<b>720</b>~<b>730</b>項。</span>
+
+                      </section>
+                      <!-- pagination -->
+                      <div class="pagination page_top">
+                          <a class="prev">PREV</a>
+                          <a class="next">NEXT</a>
+                          <ul>
+                            <li><a class="on" href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                          </ul>
+                      </div>                      
+                      <section class="news_list col_list">
+                                <!--1th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_01.jpg"></a>
+                                   <h4><a href="#">北歐耳機新秀 瑞典NOCS極簡登場</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_red">業界新聞</span>
+                                   <a class="more" href="#">more</a>
+                                </div>
+                                <!--2th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_02.jpg"></a>
+                                   <h4><a href="#">看懂耳機規格－輕鬆入門耳機世界(下)</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_blue">耳機特輯</span>
+                                   <a class="more" href="#">more</a>
+                                </div>                              
+                                <!--3th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_01.jpg"></a>
+                                   <h4><a href="#">北歐耳機新秀 瑞典NOCS極簡登場</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_red">業界新聞</span>
+                                   <a class="more" href="#">more</a>
+                                </div>
+                                <!--4th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_02.jpg"></a>
+                                   <h4><a href="#">看懂耳機規格－輕鬆入門耳機世界(下)</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_blue">耳機特輯</span>
+                                   <a class="more" href="#">more</a>
+                                </div>
+                                <!--1th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_01.jpg"></a>
+                                   <h4><a href="#">北歐耳機新秀 瑞典NOCS極簡登場</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_red">業界新聞</span>
+                                   <a class="more" href="#">more</a>
+                                </div>
+                                <!--2th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_02.jpg"></a>
+                                   <h4><a href="#">看懂耳機規格－輕鬆入門耳機世界(下)</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_blue">耳機特輯</span>
+                                   <a class="more" href="#">more</a>
+                                </div>                              
+                                <!--3th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_01.jpg"></a>
+                                   <h4><a href="#">北歐耳機新秀 瑞典NOCS極簡登場</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_green">試聽報告</span>
+                                   <a class="more" href="#">more</a>
+                                </div>
+                                <!--4th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_02.jpg"></a>
+                                   <h4><a href="#">看懂耳機規格－輕鬆入門耳機世界(下)</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_blue">耳機特輯</span>
+                                   <a class="more" href="#">more</a>
+                                </div>
+                                <!--1th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_01.jpg"></a>
+                                   <h4><a href="#">北歐耳機新秀 瑞典NOCS極簡登場</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_red">業界新聞</span>
+                                   <a class="more" href="#">more</a>
+                                </div>
+                                <!--2th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_02.jpg"></a>
+                                   <h4><a href="#">看懂耳機規格－輕鬆入門耳機世界(下)</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_blue">耳機特輯</span>
+                                   <a class="more" href="#">more</a>
+                                </div>                              
+                                <!--3th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_01.jpg"></a>
+                                   <h4><a href="#">北歐耳機新秀 瑞典NOCS極簡登場</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_green">試聽報告</span>
+                                   <a class="more" href="#">more</a>
+                                </div>
+                                <!--4th block-->
+                                <div>
+                                   <a href="#"><img src="images/lst_02.jpg"></a>
+                                   <h4><a href="#">看懂耳機規格－輕鬆入門耳機世界(下)</a></h4>
+                                   <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                   <span class="tag_category tag_blue">耳機特輯</span>
+                                   <a class="more" href="#">more</a>
+                                </div>                                                            
+                      </section>                            
+
+
+                      <!-- all collection list END-->
+                      <!-- pagination -->
+                      <div class="pagination">
+                          <a class="prev">PREV</a>
+                          <a class="next">NEXT</a>
+                          <ul>
+                            <li><a class="on" href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                          </ul>
+                      </div>
+                      <!-- AD -->
+                      <div class="dist_AD clear">
+                          <img src="images/dis_ad.jpg">
+                      </div>
+                </div>
+                <!-- Left Block END-->
+                <!-- Right Block -->
+                <div class="right_block">
+                    <!-- Search -->
+                    <section class="search_desktop right_AD">
+                         <h2>
+                           <span>SEARCH</span>文章搜尋
+                           <a href="search.html" class="adv_sh">進階搜尋</a>
+                        </h2>
+                        <div class="sh_box">
+                            <form>
+                              <select name="category">
+                              　<option value="all">不分類</option>
+                              　<option value="news">新聞</option>
+                                <option value="review">試聽</option>
+                              　<option value="feature">專題</option>
+                              　<option value="collection">特輯</option>
+                                <option value="music">音樂</option>
+                              </select>
+                              <input type="search" placeholder="search..."/>
+                              <span class="ps">(&nbsp;多關鍵字搜尋時，請以半形「,」隔開&nbsp;)</span>
+                              
+                            </form>
+                            <a href="#" class="sh_btn">立即搜尋</a>
+                            <h3><span>ADVERTISEMENT</span>廣告</h3>
+                        </div>                                               
+                        <img src="images/AD03.jpg">
+                    </section>
+                    <!--HOT STUFF-->
+                    <section class="hot_stuff">
+                        <h2><span>HOT STUFF</span>廠牌專區</h2>
+                        <a href="#" class="brand">
+                            <img src="images/pioneer.jpg" alt="pioneer">
+                        </a>
+                        <a href="#" class="brand">
+                            <img src="images/denon.jpg" alt="pioneer">
+                        </a>
+                        <a href="#" class="brand">
+                            <img src="images/audio_technica.jpg" alt="pioneer">
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_01.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_02.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_03.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_04.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_01.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_02.jpg" alt="pioneer">
+                            <span></span>
+                        </a>                                                                                                                          
+                    </section>
+                    <!--U SERIES-->
+                    <div class="u_series">
+                        <!-- title -->
+                        <input type="checkbox" id="useries" />
+                        <label for="useries">
+                            <span>U&nbsp;SERIES</span>
+                            更多頻道
+                            
+                        </label>
+                        <!--Related website link-->
+                        <section>
+                             <a href="#">U-CAR&nbsp;網路汽車共和國</a>
+                             <a href="#">U-AUDIO&nbsp;音響共和國</a>
+                             <a href="#">U-FASHION</a>
+                             <a href="#">U-3C</a>
+                             <a href="#">U-OUTDOOR</a>
+                        </section> 
+                                                
+                    </div>
+                    <!--U SERIES END-->
+                </div>
+                <!-- Right Block END-->
+            </div>
+            <div class="footwrapper">
+                <footer>
+                    <p>丞遠傳媒股份有限公司&nbsp;版權所有
+                       <span>©&nbsp;2015 HanMedia Inc.</span>
+                       <span> All Rights Reserved.</span>
+                    </p>
+                </footer>
+            </div>
+
+        </div>
+
+        <!-- Pushy JS -->
+        <script src="js/pushy.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/uisearch.js"></script>
+        <script>
+            new UISearch( document.getElementById( 'sb-search' ) );
+        </script>        
+
+    </body>
+</html>

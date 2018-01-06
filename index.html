@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>U-headphone Fun Mobile Listening</title>
+        <meta name="description" content="Pushy is an off-canvas navigation menu for your website.">     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link href="uicon.ico" rel="SHORTCUT ICON">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/component.css">
+        <!-- Pushy CSS -->
+        <link rel="stylesheet" href="css/pushy.css">
+        <!-- Excolo Slider css-->
+        <link href="css/jquery.excoloSlider.css" rel="stylesheet" />        
+        <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+        
+        <!-- jQuery & js -->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jsScroller.js"></script>
+        <script type="text/javascript" src="js/jsScrollbar.js"></script>
+        <!-- excolo slider -->
+        <script src="js/jquery.excoloSlider.js"></script>
+        <script src="js/shCore.js" type="text/javascript"></script>
+        <script src="js/shAutoloader.js" type="text/javascript"></script>        
+        <script type="text/javascript">
+            var scroller  = null;
+            var scrollbar = null;
+            window.onload = function () {
+              scroller  = new jsScroller(document.getElementById("Scroller-1"), 400, 200);
+              scrollbar = new jsScrollbar (document.getElementById("Scrollbar-Container"), scroller, false);
+            }
+        </script>
+        <script type="text/javascript">
+            $(function(){
+                if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+                  $("body").addClass("mac");
+                } else {
+                  $("body").addClass("pc");
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <!-- Mobile Menu -->
+        <nav class="pushy pushy-left">
+            <ul>
+                <li><a href="news.html"><span>NEWS</span>業界新聞</a></li>
+                <li><a href="review.html"><span>REVIEW</span>試聽報告</a></li>
+                <li><a href="feature.html"><span>FEATURE</span>專題報導</a></li>
+                <li><a href="collection.html"><span>COLLECTION</span>耳機特輯</a></li>
+                <li><a href="distributor.html"><span>DISTRIBUTOR</span>廠商專區</a></li>
+                <li><a href="music.html"><span>MUSIC</span>音樂推薦</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- Site Overlay -->
+        <div class="site-overlay"></div>
+
+        <!-- Your Content -->
+        <div id="container">
+
+            <header>
+               <nav>
+                  <ul>
+                     <li>
+                        <a href="http://www.u-car.com.tw" target="blank">
+                           u-car
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-fashion.com.tw" target="blank">
+                           u-fashion
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-audio.com.tw/" target="blank">
+                           u-audio
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-3c.com.tw/" target="blank">
+                           u-3c
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-outdoor.com.tw/" target="blank">
+                           u-outdoor
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.u-headphone.com.tw/" target="blank">
+                           u-headphone
+                        </a>
+                     </li>           
+                  </ul>
+               </nav>
+               <!--Mobile Menu Button -->
+               <div class="menu-btn"></div>
+               <a href="index.html" class="logo_s"></a>
+               <!--Desktop Menu -->
+               <div class="main_menu">
+
+                  <a href="index.html" class="logo"></a>                  
+                  <ul>
+                    <li><a href="news.html">業界新聞</a></li>
+                    <li><a href="review.html">試聽報告</a></li>
+                    <li><a href="feature.html">專題報導</a></li>
+                    <li><a href="collection.html">耳機特輯</a></li>
+                    <li><a href="distributor.html">廠商專區</a></li>
+                    <li><a href="music.html">音樂推薦</a></li>
+                  </ul>
+
+               </div>
+               <!--Mobile Search -->
+               <div id="sb-search" class="sb-search">
+                  <form>
+                      <input class="sb-search-input" placeholder="search..." type="text" value="" name="search" id="search">
+                      <input class="sb-search-submit" type="submit" value="">
+                      <span class="sb-icon-search"></span>
+                  </form>
+               </div>              
+
+            </header>
+            <!--advertisement-->
+            <section class="mainAD">
+                <a href="#" class="ad">
+                  <img src="images/AD01.jpg">
+                </a>
+            </section>  
+
+            <!-- content -->
+            <div class="content">
+                <div class="st_line"></div>
+                <!-- Lest Column -->
+                <div class="left_block" id="accordion">
+                    <article class="latest_news">
+                         <h2><span>LATEST</span>近期文章</h2>
+                         <section class="latest_1th">
+                             <!--category-->
+                             <div class="category_tag"><span>試聽報告</span>2015&nbsp;/&nbsp;06&nbsp;/&nbsp;08</div>
+                             <a class="main_pic" href="#">
+                                <img src="images/latest_pic.jpg"/>
+                             </a>
+                             <h3><a href="#">目前聽過最棒的耳機!&nbsp;- Pioneer SE-MASTER1</a></h3>
+                             <p>標題已經寫了：這是我目前聽過最棒的耳
+                                ，而且沒有避重就輕地寫「之一」，而是
+                                「唯一」。在此之前，我曾經用過類似的標
+                                題，講的是Sennheiser HD800，但是現
+                                在我的「最好」變成SE-MASTER1了（
+                                這算喜新厭舊嗎？）！是的，Pioneer SE
+                                -MASTER1耳機打破了我在諸多高...
+                              </p>
+                              <!--read more btn-->
+                              <a href="#" class="readmore">閱讀全文</a>
+                         </section>
+                         <!-- Mobile slider -->
+                         <div class="mobile_latest_news">
+                          
+                            <div id="sliderB" class="slider">
+                              <div>
+                                   <!-- news 01 --> 
+                                   <!--category-->
+                                   <div class="category_tag"><span>試聽報告</span>2015&nbsp;/&nbsp;06&nbsp;/&nbsp;08</div>
+                                   <a class="main_pic" href="#">
+                                      <img src="images/latest_pic.jpg"/>
+                                   </a>
+                                   <h3><a href="#">目前聽過最棒的耳機!&nbsp;- Pioneer SE-MASTER1</a></h3>
+                              </div>
+                              <div>
+                                   <!-- news 02 -->
+                                   <div class="category_tag"><span>業界新聞</span>2015&nbsp;/&nbsp;06&nbsp;/&nbsp;09</div>
+                                     <a class="main_pic" href="#">
+                                        <img src="images/latest_pic02.jpg"/>
+                                     </a>
+                                     <h3><a href="#">北歐耳機新秀&nbsp;瑞典NOCS&nbsp;極簡登場</a></h3>                                
+                              </div>
+                              <div style="background-color: #00ff05">
+                                   <!-- news 03 -->
+                                   <div class="category_tag"><span>業界新聞</span>2015&nbsp;/&nbsp;06&nbsp;/&nbsp;09</div>
+                                     <a class="main_pic" href="#">
+                                        <img src="images/latest_pic.jpg"/>
+                                     </a>
+                                     <h3><a href="#">北歐耳機新秀&nbsp;瑞典NOCS&nbsp;極簡登場</a></h3>                                 
+                              </div>
+                              <div style="background-color: #00d8ff">
+                                   <!-- news 04 -->
+                                   <div class="category_tag"><span>業界新聞</span>2015&nbsp;/&nbsp;06&nbsp;/&nbsp;09</div>
+                                     <a class="main_pic" href="#">
+                                        <img src="images/latest_pic02.jpg"/>
+                                     </a>
+                                     <h3><a href="#">北歐耳機新秀&nbsp;瑞典NOCS&nbsp;極簡登場</a></h3>                                 
+                              </div>
+                              <div>
+                                   <!-- news 05 -->
+                                   <div class="category_tag"><span>業界新聞</span>2015&nbsp;/&nbsp;06&nbsp;/&nbsp;09</div>
+                                     <a class="main_pic" href="#">
+                                        <img src="images/latest_pic.jpg"/>
+                                     </a>
+                                     <h3><a href="#">北歐耳機新秀&nbsp;瑞典NOCS&nbsp;極簡登場</a></h3>                                 
+                              </div>
+                            </div>
+                            
+                         </div>
+                         <!-- Mobile slider END-->
+                         <script type="text/javascript">
+                            $(function () {
+                                $("#sliderB").excoloSlider();
+                            });
+                         </script>                              
+                         <!-- slider js END-->
+                         <section class="latest_2th Scroller-1">
+                              <div class="Scroller-Container">
+                                  <!--1th block-->
+                                  <div>
+                                     <img src="images/lst_01.jpg">
+                                     <h4><a href="#">北歐耳機新秀 瑞典NOCS極簡登場</a></h4>
+                                     <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                     <span class="tag_category tag_red">業界新聞</span>
+                                     <div class="date_more">2015/07/07<a href="#">more</a></div>
+                                  </div>
+                                  <!--2th block-->
+                                  <div>
+                                     <img src="images/lst_02.jpg">
+                                     <h4><a href="#">看懂耳機規格－輕鬆入門耳機世界(下)</a></h4>
+                                     <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                     <span class="tag_category tag_blue">耳機特輯</span>
+                                     <div class="date_more">2015/07/15<a href="#">more</a></div>
+                                  </div>                              
+                                  <!--3th block-->
+                                  <div>
+                                     <img src="images/lst_01.jpg">
+                                     <h4><a href="#">北歐耳機新秀 瑞典NOCS極簡登場</a></h4>
+                                     <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                     <span class="tag_category tag_red">業界新聞</span>
+                                     <div class="date_more">2015/07/07<a href="#">more</a></div>
+                                  </div>
+                                  <!--4th block-->
+                                  <div>
+                                     <img src="images/lst_02.jpg">
+                                     <h4><a href="#">看懂耳機規格－輕鬆入門耳機世界(下)</a></h4>
+                                     <p>對耳機迷來說，NOCS可不是義大利的特種部隊，而是來自瑞典斯德哥爾摩的新興耳機品牌，該公司的產品以耳機為主力，另外還有少量小型無...</p>
+                                     <span class="tag_category tag_blue">耳機特輯</span>
+                                     <div class="date_more">2015/07/15<a href="#">more</a></div>
+                                  </div>
+                              </div>                              
+                         </section>
+                         <!--scrollbar style-->
+                         <div id="Scrollbar-Container">
+                            <div class="Scrollbar-Track">
+                              <div class="Scrollbar-Handle"></div>
+                            </div>
+                         </div>
+                         <section class="latest_3th">
+                              <h3>更多近期文章</h3>
+                              <ul>
+                                 <li><a href="#">平面振膜耳機，捨我其誰－認識Audeze </a></li>
+                                 <li><a href="#">耳機型式有哪些？－輕鬆入門耳機世界（上）</a></li>
+                                 <li><a href="#">讓專業的告訴你－挑選DJ耳機10大要領 </a></li>
+                                 <li><a href="#">看懂耳機規格－輕鬆入門耳機世界（下） </a></li>
+                                 <li><a href="#">75%樂手指定使用－Ultimate Ears鑑聽耳機的專家 </a></li>
+                                 <li><a href="#">「為音樂而活」－專訪UE副總Rory Dooley </a></li>
+                              </ul>
+
+                         </section>
+                      
+                    </article>
+                    <!--left AD 01-->
+                    <div class="left_AD">
+                         <img src="images/AD02.jpg">
+                    </div>
+                    <!-- Latest news article -->
+                    <div class="mobile_line"></div>
+                    <div>
+                        <input type="checkbox" id="check-1" />
+                        <label for="check-1"><span>NEWS</span>業界新聞</label>
+                        <section class="category_news news_article">
+                             <h3><span>NEWS</span>業界新聞<div class="title_line"></div></h3>
+                             <ul>
+                               <li><a href="#">平面振膜耳機，捨我其誰－認識Audeze </a></li>
+                               <li><a href="#">耳機型式有哪些？－輕鬆入門耳機世界（上）</a></li>
+                               <li><a href="#">讓專業的告訴你－挑選DJ耳機10大要領 </a></li>
+                               <li><a href="#">看懂耳機規格－輕鬆入門耳機世界（下） </a></li>
+                               <li><a href="#">75%樂手指定使用－Ultimate Ears鑑聽耳機的專家 </a></li>
+                             </ul>
+                             <!--point article-->
+                             <a href="#" class="point">
+                                <img src="images/news_01.jpg"/>
+                                <h4>北歐耳機新秀 瑞典NOCS極簡登場</h4>
+                             </a>
+
+                        </section>
+                    </div>
+                    <!-- Latest feature article -->
+                    <div>
+                        <input type="checkbox" id="check-2" />
+                        <label for="check-2"><span>FEATURE</span>專題報導</label>                    
+                        <section class="category_news feature_article">
+                             <h3><span>FEATURE</span>專題報導<div class="title_line"></div></h3>
+                             <ul>
+                               <li><a href="#">平面振膜耳機，捨我其誰－認識Audeze </a></li>
+                               <li><a href="#">耳機型式有哪些？－輕鬆入門耳機世界（上）</a></li>
+                               <li><a href="#">讓專業的告訴你－挑選DJ耳機10大要領 </a></li>
+                               <li><a href="#">看懂耳機規格－輕鬆入門耳機世界（下） </a></li>
+                               <li><a href="#">75%樂手指定使用－Ultimate Ears鑑聽耳機的專家 </a></li>
+                             </ul>
+                             <!--point article-->
+                             <a href="#" class="point">
+                                <img src="images/news_02.jpg"/>
+                                <h4>我們目前最好的DAC－MSB總裁談SELECT DAC</h4>
+                             </a>
+
+                        </section>
+                    </div>                    
+                    <!-- Latest music article -->
+                    <div>
+                        <input type="checkbox" id="check-3" />
+                        <label for="check-3"><span>MUSIC</span>音樂推薦</label>                   
+                        <section class="category_news music_article">
+                             <h3><span>MUSIC</span>音樂推薦<div class="title_line"></div></h3>
+                             <ul>
+                               <li><a href="#">平面振膜耳機，捨我其誰－認識Audeze </a></li>
+                               <li><a href="#">耳機型式有哪些？－輕鬆入門耳機世界（上）</a></li>
+                               <li><a href="#">讓專業的告訴你－挑選DJ耳機10大要領 </a></li>
+                               <li><a href="#">看懂耳機規格－輕鬆入門耳機世界（下） </a></li>
+                               <li><a href="#">75%樂手指定使用－Ultimate Ears鑑聽耳機的專家 </a></li>
+                             </ul>
+                             <!--point article-->
+                             <a href="#" class="point">
+                                <img src="images/news_03.jpg"/>
+                                <h4>讓銅管快樂地唱歌，莫札特法國號協奏曲全集</h4>
+                             </a>
+                             <div class="clear"></div>
+                        </section>
+                    </div>
+                    <!--collection -->
+                    <section class="collection_news">
+                         <h3><span>COLLECTION</span>特輯</h3>
+                         <div class="main_collect">
+                             <img src="images/collection_01.jpg">
+                             <div class="col_info">
+                                <h4><a href="#">平面振膜耳機 捨我其誰 認識Audez</a></h4>
+                                <p>看到「Audeze」這個品牌，很多人第一個問題是︰這個名字該怎麼讀呢...</p>
+                                <a href="#" class="more">more</a>
+                             </div>
+                             <span></span>
+                         </div>
+                         <ul>
+                             <li><a href="#">復古時尚風再添新寵－Denon AH-MM200耳機</a></li>
+                             <li><a href="#">結合自家優勢再升級－Klipsch New X-Series耳道耳機</a></li>
+                             <li><a href="#">全台首發－Pioneer SE-Master1海恩耳機發表會</a></li>
+                             <li><a href="#">超美的平面振膜耳機－Audez EL-8耳罩耳機</a></li>
+                             <li><a href="#">採平衡電樞單體－MEElectronics A151P繞線耳道耳機</a></li>
+                             <li><a href="#">簡練造型更時尚－Angle&Curve Carboncans耳機</a></li>
+                         </ul>
+                    </section>                    
+
+                </div>
+                <!-- Right Column -->
+                <div class="right_block">
+                    <!-- Search -->
+                    <section class="search_desktop right_AD">
+                         <h2>
+                           <span>SEARCH</span>文章搜尋
+                           <a href="search.html" class="adv_sh">進階搜尋</a>
+                        </h2>
+                        <div class="sh_box">
+                            <form>
+                              <select name="category">
+                              　<option value="all">不分類</option>
+                              　<option value="news">新聞</option>
+                                <option value="review">試聽</option>
+                              　<option value="feature">專題</option>
+                              　<option value="collection">特輯</option>
+                                <option value="music">音樂</option>
+                              </select>
+                              <input type="search" placeholder="search..."/>
+                              <span class="ps">(&nbsp;多關鍵字搜尋時，請以半形「,」隔開&nbsp;)</span>
+                              
+                            </form>
+                            <a href="#" class="sh_btn">立即搜尋</a>
+                            <h3><span>ADVERTISEMENT</span>廣告</h3>
+                        </div>                                               
+                        <img src="images/AD03.jpg">
+                    </section>
+                    <!--HOT STUFF-->
+                    <section class="hot_stuff">
+                        <h2><span>HOT STUFF</span>廠牌專區</h2>
+                        <a href="#" class="brand">
+                            <img src="images/pioneer.jpg" alt="pioneer">
+                        </a>
+                        <a href="#" class="brand">
+                            <img src="images/denon.jpg" alt="pioneer">
+                        </a>
+                        <a href="#" class="brand">
+                            <img src="images/audio_technica.jpg" alt="pioneer">
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_01.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_02.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_03.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_04.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_01.jpg" alt="pioneer">
+                            <span></span>
+                        </a>
+                        <a href="#" class="stuff">
+                            <img src="images/stf_02.jpg" alt="pioneer">
+                            <span></span>
+                        </a>                                                                                                                          
+                    </section>
+                    <!--U SERIES-->
+                    <div class="u_series">
+                        <!-- title -->
+                        <input type="checkbox" id="useries" />
+                        <label for="useries">
+                            <span>U&nbsp;SERIES</span>
+                            更多頻道
+                            
+                        </label>
+                        <!--Related website link-->
+                        <section>
+                             <a href="#">U-CAR&nbsp;網路汽車共和國</a>
+                             <a href="#">U-AUDIO&nbsp;音響共和國</a>
+                             <a href="#">U-FASHION</a>
+                             <a href="#">U-3C</a>
+                             <a href="#">U-OUTDOOR</a>
+                        </section> 
+                                                
+                    </div>
+                    <!--U SERIES END-->
+                </div>
+                <!-- Right END -->
+            </div>
+            <div class="footwrapper">
+                <footer>
+                    <p>丞遠傳媒股份有限公司&nbsp;版權所有
+                       <span>©&nbsp;2015 HanMedia Inc.</span>
+                       <span>All Rights Reserved.</span>
+                    </p>
+                </footer>
+            </div>
+
+        </div>
+
+        <!-- Pushy JS -->
+        <script src="js/pushy.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/uisearch.js"></script>
+        <script>
+            new UISearch( document.getElementById( 'sb-search' ) );
+        </script>        
+
+    </body>
+</html>
